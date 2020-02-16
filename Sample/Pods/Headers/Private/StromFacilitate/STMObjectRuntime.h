@@ -1,0 +1,1 @@
+../../../StromFacilitate/Strom/Core/Utilities/STMObjectRuntime.h

@@ -1,0 +1,1 @@
+../../../StromFacilitate/Strom/Core/Config/STMConfiguration.h

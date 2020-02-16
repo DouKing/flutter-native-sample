@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - my_flutter (0.0.1):
+    - Flutter
+  - StromFacilitate (1.4.2):
+    - StromFacilitate/Core (= 1.4.2)
+    - StromFacilitate/UI (= 1.4.2)
+  - StromFacilitate/Core (1.4.2)
+  - StromFacilitate/UI (1.4.2):
+    - StromFacilitate/Core
+
+DEPENDENCIES:
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - StromFacilitate (~> 1.4.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - StromFacilitate
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  my_flutter: c0ca42721b3297bc8d54e93782ac00730d3bd1a1
+  StromFacilitate: a294de92af90854f81ed18396ba4c530510dad66
+
+PODFILE CHECKSUM: 69509b44f21cfa03768a1601aa0f232ee771434c
+
+COCOAPODS: 1.8.4

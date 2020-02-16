@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+flutter_application_path = '../my_flutter'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+target 'Sample' do
+  install_all_flutter_pods(flutter_application_path)
+
+  pod 'StromFacilitate', '~> 1.4.2'
+  
+end
+
+
